@@ -1,5 +1,5 @@
 {
     "mongoURI": "mongodb+srv://dbUser:dbPassword@cluster0.z8nyy.mongodb.net/twitter-clone?retryWrites=true&w=majority",
-    "baseURL" : "http://localhost:8000",
+    "baseURL" : "https://urlshn.herokuapp.com",
     "allowedClick" : 3
 }
