@@ -1,5 +1,5 @@
 {
-  "name": "url_shortner",
+  "name": "url_shortener",
   "version": "1.0.0",
   "description": "A Service for URL shortening",
   "main": "index.js",
@@ -8,8 +8,7 @@
     "dev": "nodemon index"
   },
   "keywords": [
-    "url",
-    "shortner"
+    "url"
   ],
   "author": "oluwabusola adeleke",
   "license": "ISC",
