@@ -12,7 +12,7 @@ connectDB();
 app.use(cors());
 app.use(express.json({}));
 const PORT = 8000;
-app.listen(PORT, () => console.log("Server is listening on port " + PORT));
+app.listen(process.env.PORT || PORT, () => console.log("Server is listening on port " + process.env.PORT || PORT));
 
 
 app.use("/",getShortenUrlRoute)
